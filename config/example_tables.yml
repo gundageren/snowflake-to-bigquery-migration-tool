@@ -1,0 +1,10 @@
+- database: DEV
+  schema: PUBLIC
+  exclude_table_like:
+    - 'TMP_%'
+    - '%_TEMP'
+- database: PROD
+  schema: ANALYTICS
+  table: sales_data
+- database: PROD
+  with_views: True

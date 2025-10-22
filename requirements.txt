@@ -1,0 +1,8 @@
+google-cloud-bigquery[all]
+pandas
+python-dotenv
+pyyaml
+inquirer
+snowflake-connector-python
+snowflake-connector-python[secure-local-storage]
+tabulate
